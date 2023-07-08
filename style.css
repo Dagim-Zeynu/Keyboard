@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   font-family:sans-serif;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   margin: 0;  
+}
+
+
+.keyboard{
+    background: #c57c7c;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.row{
+    display: flex;
+}
+
+.key{
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    color: #fffafa;
+    border-radius: 5px;
+    padding-top: 15px;
+    margin: 5px;
+    text-shadow: #fff 1px 0 10px;
+    box-shadow: #ffffffad 0px 1px 3px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+.backspace-key{
+    width: 100px;
+}
+.tab-key{
+    width: 75px;
+}
+.slash-key{
+    width: 75px;
+}
+.capslock-key{
+    width: 100px;
+}
+.enter-key{
+    width: 110px;
+}
+.shift-key-l{
+    width: 130px;
+}
+.shift-key-r{
+    width:140px;
+}
+.space-key{
+    width: 460px;
+}
